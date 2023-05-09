@@ -1,8 +1,5 @@
 var audio = document.querySelector('#bg-music')
-
-if(audio.paused){
-    audio.play()
-}
+audio.play()
 
 (function ($) {
     "use strict";
