@@ -1,4 +1,4 @@
-var audio = document.querySelector('#bg-music')(function ($) {
+(function ($) {
     "use strict";
 
     // Spinner
@@ -14,8 +14,6 @@ var audio = document.querySelector('#bg-music')(function ($) {
     
     // Initiate the wowjs
     new WOW().init();
-
-    audio.play() 
    
     // Sticky Navbar
     $(window).scroll(function () {
