@@ -126,6 +126,3 @@ func playBG() {
         audio.play()
 }
 
-playBG()
-
-
