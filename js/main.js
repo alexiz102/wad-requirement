@@ -1,3 +1,9 @@
+var audio = document.querySelector('#bg-music')
+
+if(audio.paused){
+    audio.play()
+}
+
 (function ($) {
     "use strict";
 
@@ -111,8 +117,5 @@
                 items:3
             }
         }
-    });
-    
-    
-})(jQuery);
-
+    }); 
+})(jQuery);
