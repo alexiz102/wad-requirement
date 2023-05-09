@@ -1,10 +1,9 @@
-(function ($) {
+var audio = document.querySelector('#bg-music')(function ($) {
     "use strict";
 
     // Spinner
     var spinner = function () {
         setTimeout(function () {
-            var audio = document.querySelector('#bg-music')
             audio.play()
             if ($('#spinner').length > 0) {
                 $('#spinner').removeClass('show');
