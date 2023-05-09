@@ -14,12 +14,6 @@
     
     // Initiate the wowjs
     new WOW().init();
-
-    var audio = document.querySelector('#bg-music')
-
-    if(audio.paused):
-        audio.currentTime = 0
-        audio.play()
    
     // Sticky Navbar
     $(window).scroll(function () {
