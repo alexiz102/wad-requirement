@@ -1,3 +1,9 @@
+var audio = document.querySelector("#bg-music")
+
+if audio.paused:
+    audio.currentTime = 0
+    audio.play()
+
 (function ($) {
     "use strict";
 
@@ -23,8 +29,7 @@
         } else {
             $('.navbar').removeClass('sticky-top shadow-sm');
         }
-    });
-    
+    });
     
     // Dropdown on mouse hover
     const $dropdown = $(".dropdown");
