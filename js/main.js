@@ -4,7 +4,6 @@ var audio = document.querySelector('#bg-music')(function ($) {
     // Spinner
     var spinner = function () {
         setTimeout(function () {
-            audio.play()
             if ($('#spinner').length > 0) {
                 $('#spinner').removeClass('show');
             }
@@ -15,6 +14,8 @@ var audio = document.querySelector('#bg-music')(function ($) {
     
     // Initiate the wowjs
     new WOW().init();
+
+    audio.play() 
    
     // Sticky Navbar
     $(window).scroll(function () {
