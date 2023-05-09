@@ -1,4 +1,6 @@
 
+var audio = document.querySelector('#bg-music')
+audio.play()
 (function ($) {
     "use strict";
 
