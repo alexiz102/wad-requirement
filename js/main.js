@@ -1,6 +1,6 @@
 var audio = document.querySelector("#bg-music")
 
-if audio.paused:
+if(audio.paused):
     audio.currentTime = 0
     audio.play()
 
