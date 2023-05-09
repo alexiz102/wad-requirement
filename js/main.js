@@ -1,9 +1,3 @@
-var audio = document.querySelector("#bg-music")
-
-if(audio.paused):
-    audio.currentTime = 0
-    audio.play()
-
 (function ($) {
     "use strict";
 
