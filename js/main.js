@@ -119,3 +119,11 @@
 })(jQuery);
 
 
+var audio = new Audio('img/bg_music.mp3');
+
+func playBG() {
+    if audio.paused:
+        audio.play()
+}
+
+
